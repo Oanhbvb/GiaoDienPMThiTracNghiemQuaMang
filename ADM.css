@@ -1,0 +1,137 @@
+.container {
+    margin: auto;
+    width: 1280px;
+    background-color: #FFFFFF;
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.container p {
+    font-size: 20px;
+    font-weight: 100;
+}
+
+.header {
+    display: flex;
+    padding: 10px 0px;
+    margin: 10px 0px;
+    width: 1280px;
+}
+
+
+.header>.logo {
+    padding-left: 0px;
+    margin-left: 0px;
+    display: flex;
+    color: #116530;
+}
+
+.header>.form {
+    padding-left: 10px;
+    margin-left: 10px;
+    padding-right: 0px;
+    margin-right: 0px;
+    
+}
+
+
+.header>.form>label {
+    padding-left: 5px;
+    margin-left: 5px;
+    margin-right: 0px;
+}
+
+.header>.form>label input:hover {
+    transform: scale(1.1);
+}
+.footer {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid #FFFFFF;
+}
+
+.content {
+    width: 1280px;
+    position: relative;
+}
+
+.content>.news {
+    display: flex;
+}
+
+.content>.news>.new {
+    list-style: none;
+    color: black;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 0px;
+    margin: 0px;
+}
+
+.content>.news>.new li {
+    padding: 0px 5px 10px;
+    margin: 0px 5px 10px;
+}
+
+.content>.news>.new li a {
+    color: #116530;
+    text-decoration: none;
+
+}
+
+.content>.news>.new li:hover {
+    transform: scale(1.1);
+}
+
+.content>.news>.new li a:hover {
+    text-decoration: underline;
+    color: #19cd09;
+}
+
+.content>.news>.menu>.row {
+    display: flex;
+}
+
+.content>.news>.menu>.row>.column img {
+    width: 300px;
+    height: 240px;
+    border-radius: 25px;
+}
+
+.content>.news>.menu>.row>.column {
+    padding: 0px 0px 20px 15px;
+    margin: 0px 0px 20px 15px;
+}
+
+.content>.news>.menu>.row>.column h3 {
+    width: 310px;
+    height: 30px;
+    padding: 10px 0px 10px;
+    margin: 10px 0px 10px;
+    text-align: center;
+}
+
+.content>.news>.menu>.row>.column h5 a {
+    text-decoration: none;
+    color: #1D741B;
+    font-size: 20px;
+   
+}
+
+.content>.news>.menu>.row>.column :hover {
+    color: #F54748;
+    transform: scale(1.1);
+}
+
+.content>.news>.menu>.row>.column input {
+    width: 310px;
+    background-color: black;
+    color: white;
+    height: 34px;
+    border-radius: 5px;
+}
+
+.content>.news>.menu>.row>.column input:hover {
+    transform: scale(1.1);
+}
